@@ -293,3 +293,16 @@
 2024-03-25 16:58:32,191 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
 2024-03-25 17:02:26,193 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@55a393bc{STOPPING}[12.0.6,sto=0]
 2024-03-25 17:02:26,195 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@741769fe{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-03-25 17:02:36,183 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-25 17:07:36,524 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 17:07:36,550 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 17:07:36,555 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-25 17:14:36,972 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 17:14:36,973 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 17:14:36,975 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-25 17:14:54,437 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 17:14:54,438 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 17:14:54,439 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-25 17:41:37,521 [Worker-57: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 17:41:37,522 [Worker-57: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-25 17:41:37,524 [Worker-57: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
