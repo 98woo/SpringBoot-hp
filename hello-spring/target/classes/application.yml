@@ -9,6 +9,7 @@ spring:
         view:
             prefix: /WEB-INF/views/
             suffix: .jsp
+
     servlet:
         # 파일 업로드 설정
         multipart:
@@ -24,7 +25,7 @@ spring:
 mybatis:
     config-location: classpath:mybatis/mybatis-config.xml
     mapper-locations: classpath:com/hello/forum/**/dao/mapper/*Mapper.xml
-
+    #mapper-locations: classpath:com/hello/forum/**/dao/mapper/*Mapper.xml
 
 # 사용자 설정
 app:

@@ -1,0 +1,45 @@
+package com.hello.forum.member.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hello.forum.beans.SHA;
+import com.hello.forum.member.dao.MemberDao;
+import com.hello.forum.member.vo.MemberVO;
+
+@Service
+public class MemberServiceImpl implements MemberService {
+
+	@Autowired
+	private SHA sha;
+	
+	@Autowired
+	private MemberDao memberDao;
+	
+	
+	@Override
+	public boolean createNewMember(MemberVO memberVO) {
+		int emailCount = memberDao.getEmailCount(memberVO.getEmail());
+		if (emailCount > 0) {
+			throw new IllegalArgumentException("Email이 이미 사용 중 입니다.");
+		}
+		
+		// SHA 를 이용해서 비밀번호를 암호화하여 DB에 저장하기
+		String password = memberVO.getPassword();
+		String salt = this.sha.generateSalt();
+		// salt 는 완전히 분리된 DB에 저장해서 관리해야 한다. api 와 ajax 로 salt 값을 가져와 암호화하는 것이 일반적이다
+		password = this.sha.getEncrypt(password, salt);
+		
+		memberVO.setPassword(password);
+		
+		int insertCount = memberDao.createNewMember(memberVO);
+		return insertCount > 0;
+	}
+
+
+	@Override
+	public boolean checkAvailableEmail(String email) {
+		
+		return this.memberDao.getEmailCount(email) == 0;
+	}
+}

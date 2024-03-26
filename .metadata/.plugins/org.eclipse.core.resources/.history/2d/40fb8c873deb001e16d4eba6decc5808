@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/css/common.css" />
+<style type="text/css">
+	div.grid {
+		display: grid;
+		grid-template-columns: 120px 1fr;
+		grid-template-rows: 28px 28px 1fr;
+		row-gap: 10px;
+	}
+</style>
+<script type="text/javascript" src="/js/lib/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+</body>
+</html>

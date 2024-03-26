@@ -1,0 +1,19 @@
+
+o	java:S125x"<This block of commented-out lines of code should be removed.b f4dc81f4f8e3759f752837aa9af55de2h
+^	java:S106$"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+
+java:S1192%"TDefine a constant instead of duplicating this literal "member/memberregist" 6 times.8‹çúÆç1b 4a3a6e4ea4f8c8c3ab4a5aaef522af3eh
+v
+java:S6813"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+ˆ
+java:S1192I"MDefine a constant instead of duplicating this literal "errorMessage" 4 times.8’Â¹Èç1b 660e7e93ec916045b50e6cb1a5078477h
+ 
+java:S6833"eReplace the "@Controller" annotation by "@RestController" and remove all "@ResponseBody" annotations.8¨¢Èç1b dee1a9dfa91ea501126d7a4ecdad8cd0h
+v	java:S1254"<This block of commented-out lines of code should be removed.8¨¢Èç1b f95b70fdc3088560732a5ac135644506h
+„
+java:S1192J"IDefine a constant instead of duplicating this literal "memberVO" 6 times.8’Â¹Èç1b 9195d467151f0401a8d9cc3470eed64dh
+z
+java:S2441 ">Make "MemberVO" serializable or don't store it in the session.8Ş¸‡Íç1b aa08769cdcb26674c6706093503ff0a3h
+
+java:S1192:"FDefine a constant instead of duplicating this literal "email" 3 times.8¤ÙÍç1b 3c3c72fe212258ac2a73e59c9107bf76h
+f	java:S106Ÿ"+Replace this use of System.out by a logger.8ìğ½Îç1b bb1c3f2ea781263d3a2bb92b06a2061fh

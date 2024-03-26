@@ -1,0 +1,11 @@
+package com.example.demo.web;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class MemberController {
+
+	@GetMapping("/member/regist")
+	public String viewRegistMemberPage() {
+		return "member/memberregist";
+	}
+}

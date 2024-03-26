@@ -7,5 +7,10 @@
     <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Email"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="com.hello.forum.utils.ValidationUtils"/>
+    <fullyQualifiedTypeName name="com.hello.forum.utils.Validator"/>
+    <fullyQualifiedTypeName name="com.hello.forum.utils.Validator.Type"/>
+    <fullyQualifiedTypeName name="org.apache.tika.utils.StringUtils"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,71 @@
+package com.hello.forum.member.web;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.hello.forum.member.service.MemberService;
+import com.hello.forum.member.vo.MemberVO;
+
+
+
+@Controller
+public class MemberController {
+
+	@Autowired
+	private MemberService memberService;
+	
+	@GetMapping("/member/regist")
+	public String viewRegistMemberPage(Model model) {
+		
+		System.out.println("member member member");
+		return "member/memberregist";
+	}
+	
+	// http://localhost:8080/member/regist/available?email=aaa@aaa.com
+	@GetMapping("/member/regist/available")
+	public Map<String, Object> checkAvailableEmail(@RequestParam String email) {
+		
+		boolean isAvailableEmail = this.memberService.checkAvailableEmail(email);
+		return null;
+	}
+	
+	@PostMapping("/member/regist")
+	public String doRegistMember(MemberVO memberVO, Model model, BindingResult bindingResult) {
+		
+		
+		if (bindingResult.hasErrors()) {
+			
+			model.addAttribute("memberVO", memberVO);
+			return "member/memberregist";
+			
+		}
+		
+		boolean isSuccess = this.memberService.createNewMember(memberVO);
+		
+		if (isSuccess) {
+			
+			return "redirect:/member/login";
+		}
+		
+		model.addAttribute("memberVO", memberVO);
+		return "member/memberregist";
+	}
+	
+//	@ResponseBody // JSON 으로 응답한다.
+//	@GetMapping("/member/regist/available")
+//	public Map<String, Object> checkAvailalbeEmail(@RequestParam String email) {
+//		
+//		boolean isAvailableEmail = memberService.checkAvailableEmail(email);
+//		
+//		Map<String, Object> responseMap = memberService.checkAvailableEmail(email);
+//		// Map을 Return 하면 @ResponseBody 에 의해 JSON 으로 변환되어 응답된다.
+//		return responseMap;
+//	}
+}

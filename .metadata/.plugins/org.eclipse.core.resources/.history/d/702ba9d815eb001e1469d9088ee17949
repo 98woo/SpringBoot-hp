@@ -1,0 +1,11 @@
+package com.example.demo.utils;
+
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+
+public class Validator {
+
+	private Map<String, List<Function<String, Boolean>>> validationList;
+	private Map<String, List<String, validationResultMap>>> 
+}

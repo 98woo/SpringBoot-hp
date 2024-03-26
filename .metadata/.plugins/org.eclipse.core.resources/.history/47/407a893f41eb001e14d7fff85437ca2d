@@ -1,0 +1,5 @@
+package com.hello.forum.utils;
+
+public class Validator {
+
+}

@@ -306,3 +306,632 @@
 2024-03-25 17:41:37,521 [Worker-57: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-03-25 17:41:37,522 [Worker-57: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-03-25 17:41:37,524 [Worker-57: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-25 17:55:55,146 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-25 18:03:11,201 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-25 18:03:11,215 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-25 18:03:11,218 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-25 18:03:53,698 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-26 09:20:25,237 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-26 09:23:13,599 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:23:13,612 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-26 09:23:13,616 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:25:32,409 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 09:25:32,410 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 09:25:32,412 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:33:39,416 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 09:33:39,417 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 09:33:39,419 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:34:01,736 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:34:01,741 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-26 09:34:01,744 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:35:49,789 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:35:49,795 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-26 09:35:49,798 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:37:37,744 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:37:37,748 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-26 09:37:37,751 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:37:50,378 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:37:50,381 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-26 09:37:50,384 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:39:24,463 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-03-26 09:39:24,501 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@70a3640f{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@36609f1d{STARTED}}
+2024-03-26 09:39:24,502 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-03-26 09:39:24,511 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@453f4e05{HTTP/1.1, (http/1.1)}{127.0.0.1:50219}
+2024-03-26 09:39:24,515 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7cc60d26{STARTING}[12.0.6,sto=0] @1181362ms
+2024-03-26 09:42:42,106 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 09:42:42,108 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:42:42,113 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:46:45,575 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:46:45,580 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:46:45,583 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:47:01,597 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:47:01,603 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:47:01,605 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:47:20,372 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:47:20,375 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:47:20,377 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:48:24,748 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:48:24,751 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:48:24,753 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:49:43,166 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:49:43,170 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:49:43,172 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:49:46,222 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:49:46,237 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:49:46,240 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:52:12,209 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:52:12,213 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:52:12,217 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:52:48,717 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:52:48,721 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:52:48,724 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 09:58:36,530 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 09:58:36,535 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 09:58:36,538 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:04:12,633 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:04:12,675 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:04:12,679 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:06:18,758 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:06:18,763 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:06:18,766 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:14:13,677 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 10:14:13,678 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 10:14:13,680 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:17:55,454 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:17:55,458 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:17:55,460 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:18:00,553 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:18:00,557 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:18:00,560 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:18:53,966 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:18:53,970 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:18:53,972 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:19:39,143 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:19:39,147 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:19:39,149 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:20:21,120 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:20:21,125 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:20:21,127 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:22:08,517 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:22:08,520 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:22:08,522 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:23:10,838 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:23:10,843 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:23:10,845 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:24:47,668 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:24:47,672 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:24:47,674 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:24:54,749 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7cc60d26{STOPPING}[12.0.6,sto=0]
+2024-03-26 10:24:54,751 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@453f4e05{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-03-26 10:25:19,614 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-26 10:25:46,700 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-03-26 10:25:46,738 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@291cb699{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@9c78e30{STARTED}}
+2024-03-26 10:25:46,739 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-03-26 10:25:46,746 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2f3d420a{HTTP/1.1, (http/1.1)}{127.0.0.1:50364}
+2024-03-26 10:25:46,750 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@2672b2e2{STARTING}[12.0.6,sto=0] @50198ms
+2024-03-26 10:26:11,490 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:26:11,500 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:26:11,504 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:32:53,810 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:32:53,825 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 10:32:53,828 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:32:55,934 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:32:55,938 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:32:55,940 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 10:46:28,233 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 10:46:28,239 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 10:46:28,240 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:08:37,519 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.hello:hello-spring:0.0.1-SNAPSHOT @ C:\dev_programs\sts-workspace2\hello-spring\pom.xml.
+2024-03-26 11:08:38,219 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 11:08:38,221 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 11:08:38,224 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:08:38,227 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-spring
+2024-03-26 11:08:38,229 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-spring
+2024-03-26 11:08:38,610 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:08:38,624 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:08:38,629 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:08:47,123 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:08:47,128 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:08:47,131 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:08:55,564 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:08:55,568 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:08:55,570 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:09:00,945 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:09:00,948 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:09:00,951 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:09:15,842 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:09:15,846 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:09:15,849 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:09:24,294 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:09:24,297 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:09:24,299 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:15:56,875 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:15:56,880 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:15:56,883 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:19:40,297 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:19:40,302 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:19:40,304 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:20:39,916 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:20:39,919 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:20:39,922 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:27:51,550 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.hello:hello-spring:0.0.1-SNAPSHOT @ C:\dev_programs\sts-workspace2\hello-spring\pom.xml.
+2024-03-26 11:27:52,059 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 11:27:52,091 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 11:27:52,099 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:27:52,100 [Worker-66: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-spring
+2024-03-26 11:27:52,100 [Worker-66: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-spring
+2024-03-26 11:27:53,334 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:27:53,344 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:27:53,348 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 11:28:57,572 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 11:28:57,576 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 11:28:57,578 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:22:04,892 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 12:22:04,894 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 12:22:04,895 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:23:47,447 [Worker-75: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:23:47,453 [Worker-75: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:23:47,455 [Worker-75: Launching hello-spring - HelloSpringApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:25:00,982 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:25:00,987 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:25:00,989 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:30:05,815 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234 [354])
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\aopalliance-1.0.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\guice-5.1.0.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpclient-4.5.14.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpcore-4.4.16.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jansi-2.4.0.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jcl-over-slf4j-1.7.36.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-artifact-3.9.6.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-builder-support-3.9.6.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-compat-3.9.6.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-core-3.9.6.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-embedder-3.9.6.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-3.9.6.jar
+2024-03-26 12:30:05,816 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-builder-3.9.6.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-plugin-api-3.9.6.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-repository-metadata-3.9.6.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-api-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-connector-basic-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-impl-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-named-locks-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-provider-3.9.6.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-spi-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-file-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-http-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-wagon-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-util-1.9.18.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-3.9.6.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-builder-3.9.6.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-shared-utils-3.3.4.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-build-api-0.0.7.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-cipher-2.0.jar
+2024-03-26 12:30:05,817 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-classworlds-2.7.0.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-component-annotations-2.1.0.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-interpolation-1.26.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-sec-dispatcher-2.0.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-utils-3.5.1.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-file-3.5.3.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-3.5.3.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-shared-3.5.3.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-provider-api-3.5.3.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [27])
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2024-03-26 12:30:05,818 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [583])
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\slf4j.api_2.0.12.jar
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [44])
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [40])
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [75])
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [77])
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [81])
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-03-26 12:30:05,819 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [29])
+2024-03-26 12:30:05,820 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\dev_programs\sts-4.22.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-03-26 12:30:05,822 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\dev_programs\sts-workspace2\hello-spring":
+2024-03-26 12:30:05,823 [Worker-71: Launching Executing clean in C__dev_programs_sts-workspace2_hello-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2024-03-26 12:30:08,863 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:30:08,864 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:30:08,868 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:30:08,868 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hello-spring
+2024-03-26 12:30:08,868 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hello-spring
+2024-03-26 12:36:15,409 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:36:15,415 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 12:36:15,416 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:36:29,515 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:36:29,518 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:36:29,520 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:37:28,924 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:37:28,929 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:37:28,931 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:41:50,116 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:41:50,122 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:41:50,124 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:42:01,167 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:42:01,172 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:42:01,174 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:42:23,197 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:42:23,203 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:42:23,205 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:42:27,878 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:42:27,882 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:42:27,884 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:43:34,820 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:43:34,823 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:43:34,825 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:43:40,892 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:43:40,894 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:43:40,896 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:43:45,930 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:43:45,933 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:43:45,935 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:43:49,249 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:43:49,251 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:43:49,253 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:44:15,016 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:44:15,018 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:44:15,021 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:46:37,548 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 12:46:37,549 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 12:46:37,551 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:46:51,499 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:46:51,502 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 12:46:51,504 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 12:47:24,130 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 12:47:24,133 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 12:47:24,135 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:03:00,367 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:03:00,373 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 13:03:00,375 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:14:17,384 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:14:17,389 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 13:14:17,391 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:15:00,472 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:15:00,478 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 13:15:00,480 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:18:42,150 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:18:42,151 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:18:42,153 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:18:44,793 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:18:44,797 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 13:18:44,798 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:23:02,912 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:23:02,921 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 13:23:02,923 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:23:43,153 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:23:43,160 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 13:23:43,162 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:24:07,206 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:24:07,211 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-03-26 13:24:07,213 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:25:08,884 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:25:08,885 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:25:08,887 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:25:14,409 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:25:14,410 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:25:14,411 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:25:22,371 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:25:22,373 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-03-26 13:25:22,379 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:26:18,921 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:26:18,922 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:26:18,924 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:26:42,953 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:26:42,954 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:26:42,956 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:27:19,307 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:27:19,308 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:27:19,311 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:38:45,640 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:38:45,641 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:38:45,645 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:38:47,727 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:38:47,732 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 13:38:47,734 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:39:28,776 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:39:28,781 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 13:39:28,783 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:39:32,648 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:39:32,649 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:39:32,651 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:47:49,941 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:47:49,943 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:47:49,944 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:48:54,097 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:48:54,098 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:48:54,099 [Worker-125: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:49:43,599 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:49:43,600 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:49:43,601 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:50:18,801 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@2672b2e2{STOPPING}[12.0.6,sto=0]
+2024-03-26 13:50:18,804 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2f3d420a{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-03-26 13:50:28,712 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-03-26 13:51:03,121 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:51:03,132 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 13:51:03,137 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:57:20,474 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:57:20,476 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:57:20,478 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 13:59:36,458 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 13:59:36,460 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 13:59:36,463 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:01:04,807 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:01:04,808 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:01:04,811 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:01:58,302 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-03-26 14:01:58,334 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@5cffe7f0{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@2507e669{STARTED}}
+2024-03-26 14:01:58,334 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-03-26 14:01:58,342 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@50be1678{HTTP/1.1, (http/1.1)}{127.0.0.1:55376}
+2024-03-26 14:01:58,347 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@286bf915{STARTING}[12.0.6,sto=0] @698151ms
+2024-03-26 14:12:14,815 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:12:14,820 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:12:14,823 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:15:49,502 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:15:49,503 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:15:49,506 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:16:51,520 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:16:51,521 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:16:51,524 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:17:49,054 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:17:49,065 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:17:49,070 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:18:33,092 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:18:33,093 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:18:33,095 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:22:11,504 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:22:11,505 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:22:11,507 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:26:26,686 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:26:26,687 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:26:26,689 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:26:49,545 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:26:49,546 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:26:49,548 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:28:15,459 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:28:15,460 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:28:15,461 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:29:52,832 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:29:52,833 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:29:52,834 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:30:31,851 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:30:31,852 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:30:31,854 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:31:36,795 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:31:36,796 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 14:31:36,798 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:43:44,692 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:43:44,698 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:43:44,700 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:50:31,043 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:50:31,046 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:50:31,048 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:52:40,748 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:52:40,753 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:52:40,755 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:58:42,923 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:58:42,926 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:58:42,929 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:58:54,201 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:58:54,208 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:58:54,211 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 14:59:01,077 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 14:59:01,080 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 14:59:01,082 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:00:34,369 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:00:34,370 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:00:34,372 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:05:19,549 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:05:19,555 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:05:19,557 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:18:25,358 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:18:25,363 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:18:25,366 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:18:44,124 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:18:44,135 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:18:44,138 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:19:16,332 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:19:16,335 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:19:16,337 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:27:12,705 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:27:12,710 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:27:12,712 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:27:19,214 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:27:19,226 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:27:19,229 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:37:40,910 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:37:40,911 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:37:40,913 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:39:43,582 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@286bf915{STOPPING}[12.0.6,sto=0]
+2024-03-26 15:39:43,584 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@50be1678{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-03-26 15:39:53,211 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-26 15:40:31,795 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:40:31,823 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:40:31,828 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:41:32,617 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:41:32,634 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-03-26 15:41:32,638 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:42:44,276 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:42:44,277 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:42:44,279 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:43:05,445 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:43:05,448 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:43:05,452 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:46:30,114 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:46:30,115 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:46:30,118 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:46:54,158 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:46:54,160 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:46:54,162 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:49:01,713 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:49:01,715 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:49:01,716 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:49:25,831 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:49:25,833 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:49:25,836 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:53:19,640 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:53:19,641 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:53:19,643 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:56:44,213 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:56:44,217 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 15:56:44,219 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:57:05,622 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 15:57:05,623 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 15:57:05,626 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 15:59:31,654 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-03-26 16:03:04,863 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:03:04,876 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:03:04,880 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:05:32,122 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:05:32,123 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:05:32,125 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:06:10,112 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:06:10,114 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:06:10,115 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:06:16,436 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:06:16,437 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:06:16,439 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:11:01,799 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:11:01,801 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:11:01,801 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:13:32,744 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:13:32,750 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:13:32,752 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:13:37,089 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.10+7
+2024-03-26 16:13:37,118 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@5c6eb8bd{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@42875891{STARTED}}
+2024-03-26 16:13:37,119 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-03-26 16:13:37,127 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@25b43ea{HTTP/1.1, (http/1.1)}{127.0.0.1:60031}
+2024-03-26 16:13:37,130 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@3dbffa48{STARTING}[12.0.6,sto=0] @854974ms
+2024-03-26 16:19:36,229 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:19:36,235 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:19:36,238 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:19:56,881 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:19:56,885 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:19:56,889 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:20:16,906 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:20:16,914 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:20:16,917 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:20:25,783 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:20:25,786 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:20:25,789 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:20:34,209 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:20:34,212 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:20:34,214 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:22:49,971 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:22:49,974 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:22:49,976 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:23:51,009 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:23:51,012 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:23:51,015 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:33:24,417 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:33:24,422 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:33:24,424 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:36:04,789 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:36:04,793 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:36:04,795 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:42:50,958 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:42:50,963 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:42:50,966 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:42:54,908 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:42:54,911 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:42:54,914 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:42:57,791 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:42:57,795 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:42:57,798 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:43:07,155 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:43:07,158 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:43:07,161 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:43:16,038 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:43:16,041 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:43:16,043 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:44:36,772 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:44:36,775 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:44:36,777 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:49:03,021 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:49:03,024 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:49:03,027 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:49:56,553 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:49:56,556 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:49:56,559 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:51:48,593 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:51:48,599 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:51:48,603 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:51:56,618 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:51:56,623 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2024-03-26 16:51:56,625 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:54:58,037 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:54:58,038 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:54:58,040 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:56:41,183 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:56:41,185 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:56:41,187 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:57:50,599 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:57:50,601 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:57:50,603 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:58:32,985 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:58:32,986 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:58:32,987 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:58:35,357 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:58:35,358 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 16:58:35,360 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 16:59:26,579 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:59:26,580 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 16:59:26,582 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:03:17,651 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:03:17,653 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:03:17,655 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:05:30,264 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:05:30,269 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:05:30,272 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:08:36,263 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:08:36,264 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:08:36,266 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:10:23,120 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:10:23,125 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:10:23,127 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:12:15,522 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:12:15,525 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:12:15,528 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:14:18,594 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:14:18,596 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:14:18,600 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:17:33,372 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:17:33,378 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:17:33,380 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:18:57,869 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:18:57,872 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:18:57,875 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:19:12,370 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:19:12,375 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:19:12,378 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:21:04,626 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:21:04,627 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:21:04,629 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:21:49,328 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:21:49,329 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:21:49,332 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:25:49,606 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:25:49,607 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:25:49,608 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:26:20,062 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:26:20,063 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:26:20,064 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:32:02,133 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:32:02,134 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:32:02,136 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:32:20,952 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-03-26 17:32:20,953 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:32:20,955 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:33:50,553 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:33:50,558 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:33:50,560 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:39:33,006 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-26 17:39:33,010 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2024-03-26 17:39:33,013 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\dev_programs\sts-workspace2\hello-spring\src\test\resources
+2024-03-26 17:51:29,925 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@3dbffa48{STOPPING}[12.0.6,sto=0]
+2024-03-26 17:51:29,928 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@25b43ea{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

@@ -1,27 +1,27 @@
 
-w
-java:S22590"CA "NullPointerException" could be thrown; "trim()" can return null.b 77ea9c2edb532893e9360edc2138ac48h
-y
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
 y
 java:S1124"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
 y
 java:S1124"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
 y
-java:S1124'"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
-y
 java:S1124+"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
-y
-java:S11243"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
-y
-java:S1124;"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
 €
 java:S5998@"LRefactor this repetition that can lead to a stack overflow for large inputs.b 5b8b5fef676029e97e692f104cc48f24h
+y
+java:S1124;"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
+y
+java:S1124'"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
+d
+java:S6035I"0Replace this alternation with a character class.b d6b1685b1b6ebce6ea8fb7ff50aa9bc0h
+d
+java:S6035I"0Replace this alternation with a character class.b d6b1685b1b6ebce6ea8fb7ff50aa9bc0h
+w
+java:S22590"CA "NullPointerException" could be thrown; "trim()" can return null.b 77ea9c2edb532893e9360edc2138ac48h
+y
+java:S1124D"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
+y
+java:S11243"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
 a
 java:S6395@"-Unwrap this unnecessarily grouped subpattern.b c23582fc1eaa67fbdd76bf2b640f9c56h
 y
-java:S1124D"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h
-d
-java:S6035I"0Replace this alternation with a character class.b d6b1685b1b6ebce6ea8fb7ff50aa9bc0h
-d
-java:S6035I"0Replace this alternation with a character class.b d6b1685b1b6ebce6ea8fb7ff50aa9bc0h
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.b a81259cef8e959c624df1d456e5d3297h

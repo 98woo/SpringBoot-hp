@@ -69,6 +69,8 @@ public class CustomBeanInitializer {
 		System.out.println("> availableFileList: " + availableFileList.get(1));
 	}
 	
+	// @Autowired 로 Bean 컨테이너에 적재된 인스턴스를 가져와 사용할 수 있다.
+	
 	/**
 	 * @Bean 애노테이션이 적용된 메소드가 실행되면
 	 * 이 메소드가 반환하는 객체를 Bean Container에 적재를 한다.
@@ -86,6 +88,12 @@ public class CustomBeanInitializer {
 		fileHandler.setEnableAvailableFileList(this.enableAvailableFileList);
 		fileHandler.setHandler(this.fileMimeTypeHandler);
 		return fileHandler;
+	}
+	
+	@Bean
+	SHA sha() {
+		
+		return new SHA();
 	}
 	
 }
