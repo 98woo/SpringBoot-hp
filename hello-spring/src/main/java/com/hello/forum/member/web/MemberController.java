@@ -9,9 +9,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.SessionAttribute;
 
 import com.hello.forum.member.service.MemberService;
 import com.hello.forum.member.vo.MemberVO;
@@ -157,6 +159,7 @@ public class MemberController {
 			MemberVO member = this.memberService.getMember(memberVO);
 			
 			System.out.println(session.getId());
+			//						key			value
 			session.setAttribute("_LOGIN_USER_", member);
 		} catch (IllegalArgumentException iae) {
 			// 로그인에 실패했다면 화면으로 실패 사유를 보내준다.
@@ -167,4 +170,64 @@ public class MemberController {
 		
 		return new AjaxResponse().append("next", "/board/list");
 	}
+	
+	@GetMapping("/member/logout")
+	public String doLogout(HttpSession session) {
+		// logout 처리하기
+		// SessionID 로 전달된 세션의 모든 정보를 삭제.
+		session.invalidate();
+		
+		return "redirect:/board/list";
+	}
+	
+	@ResponseBody
+	@GetMapping("/member/delete-me")
+	public AjaxResponse doDeleteMe(HttpSession session, @SessionAttribute("_LOGIN_USER_") MemberVO memberVO) {
+		// 파라미터로 현재 로그인 되어 있는 사용자의 정보를 가져올 수 있다.
+		
+		// 현재 로그인 되어있는 사용자의 정보
+		// session 의 정보를 MemberVO 로 캐스팅해서 가져온다. -> 
+		// MemberVO memberVO = (MemberVO) session.getAttribute("_LOGIN_USER_");
+		boolean isSuccess = this.memberService.deleteMe(memberVO.getEmail());
+		
+		if (isSuccess) {
+			session.invalidate();
+		}
+		
+		return new AjaxResponse().append("next", isSuccess ? "/member/success-delete-me" : "/member/fail-delete-me");
+
+	}
+	
+	@GetMapping("/member/{result}-delete-me")
+	public String viewDeleteMePage(@PathVariable String result) {
+		result = result.toLowerCase();
+		if ( !result.equals("fail") && !result.equals("success")) {
+			return "error/404";
+		}
+		
+		return "member/" + result + "deleteme";
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

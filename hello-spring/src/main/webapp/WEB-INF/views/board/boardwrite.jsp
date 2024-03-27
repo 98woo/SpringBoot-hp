@@ -6,6 +6,8 @@ pageEncoding="UTF-8"%>
   <head>
     <meta charset="UTF-8" />
     <title>게시글 작성</title>
+	<jsp:include page="../commonheader.jsp"></jsp:include>
+    <script type="text/javascript" src="/js/boardwrite.js"></script>
     <style type="text/css">
       /*div인데 클래스가 grid인것*/
       div.grid {
@@ -14,34 +16,14 @@ pageEncoding="UTF-8"%>
         grid-template-rows: 28px 28px 28px 320px 1fr;
         row-gap: 10px;
       }
-
-      div.grid > div.btn-group {
-        grid-column: 1 / 3;
-      }
-
-      div.grid div.right-align {
-        text-align: right;
-      }
-
-      label {
-        padding-left: 10px;
-      }
-
-      button,
-      input,
-      textarea {
-        padding: 10px;
-      }
-
-      input[type="file"] {
-        padding: 0;
-      }
       
+
     </style>
     <!-- 자바스크립트 인터폴레이션. 안전하게 쓰려면 jstl을 사용한다. -->
     <!-- internal 일때만 jstl를 css에서 사용할 수도 있다. body 와 자바스크립트에서도 사용할 수 있다.
     	 에러가 없을 때는 자바스크립트를 보여주지 않는다.
      -->
+ <!-- 
     <script type="text/javascript">
     
     /*
@@ -60,8 +42,10 @@ pageEncoding="UTF-8"%>
     	dialog.showModal();
     }
     </script>
+ -->    
   </head>
   <body>
+   <jsp:include page="../member/membermenu.jsp"></jsp:include>
   	<c:if test="${not empty errorMessage }">
   		<dialog class="alert-dialog">
   			<h1>${errorMessage}</h1>

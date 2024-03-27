@@ -5,40 +5,17 @@ pageEncoding="UTF-8"%>
   <head>
     <meta charset="UTF-8" />
     <title>게시글 내용</title>
+	<jsp:include page="../commonheader.jsp"></jsp:include>
+    <script type="text/javascript" src="/js/boardview.js"></script>
     <style type="text/css">
-      a:link,
-      a:hover,
-      a:active,
-      a:visited {
-        color: #333;
-        text-decoration: none;
-      }
-
       div.grid {
         display: grid;
         grid-template-columns: 80px 1fr;
         grid-template-rows: repeat(6, 28px) 320px 1fr;
         row-gap: 10px;
       }
-
-      div.grid > div.btn-group {
-        grid-column: 1 / 3;
-      }
-
-      div.grid div.right-align {
-        text-align: right;
-      }
-
-      label {
-        padding-left: 10px;
-      }
-
-      button,
-      input,
-      textarea {
-        padding: 10px;
-      }
     </style>
+<!--
     <script type="text/javascript">
       // 페이지 렌더링이 모두 끝났을 때
       window.onload = function () {
@@ -59,15 +36,17 @@ pageEncoding="UTF-8"%>
         });
       };
     </script>
+ -->
   </head>
   <body>
+  	<jsp:include page="../member/membermenu.jsp"></jsp:include>
     <h1>게시글 조회</h1>
-    <div class="grid">
+    <div class="grid" data-id="${boardVO.id}">
       <label for="subject">제목</label>
       <div>${boardVO.subject}</div>
 
-      <label for="email">이메일</label>
-      <div>${boardVO.email}</div>
+      <label for="name">작성자 이름</label>
+      <div>${boardVO.memberVO.name}</div>
 
       <label for="viewCnt">조회수</label>
       <div>${boardVO.viewCnt}</div>

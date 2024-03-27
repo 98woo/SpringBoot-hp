@@ -7,6 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>회원가입</title>
+<jsp:include page="../commonheader.jsp"></jsp:include>
 <style type="text/css">
 
 	div.grid {
@@ -46,7 +47,7 @@
 		background-color: #f003;
 	}
 </style>
-<script type="text/javascript" src="/js/lib/jquery-3.7.1.min.js"></script>
+
 <script type="text/javascript">
 	$().ready(function () {
 		var alertDialog = $(".alert-dialog");

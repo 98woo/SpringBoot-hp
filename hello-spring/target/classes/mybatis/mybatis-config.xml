@@ -9,6 +9,7 @@
 		<!-- 전통적인 데이터베이스 칼럼명 형태인 A_COLUMN을
 			 CamelCase형태의 자바 프로퍼티명 형태인 aColumn으로 
 			 자동으로 매핑하도록 함 (기본값: false) -->
+			 <!-- autoMapping="true" 를 사용할 수 있다. -->
 		<setting name="mapUnderscoreToCamelCase" value="true"/>
 		<!-- JDBC타입을 파라미터에 제공하지 않을때 
 			 null값을 처리한 JDBC타입을 명시한다. 

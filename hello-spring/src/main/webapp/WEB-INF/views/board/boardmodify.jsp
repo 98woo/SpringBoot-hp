@@ -6,6 +6,8 @@ pageEncoding="UTF-8"%>
   <head>
     <meta charset="UTF-8" />
     <title>게시글 수정</title>
+    <jsp:include page="../commonheader.jsp"></jsp:include>
+    <script type="text/javascript" src="/js/boardmodify.js"></script>
     <style type="text/css">
       /*div인데 클래스가 grid인것*/
       div.grid {
@@ -14,28 +16,7 @@ pageEncoding="UTF-8"%>
         grid-template-rows: 28px 28px 28px 320px 1fr;
         row-gap: 10px;
       }
-
-      div.grid > div.btn-group {
-        grid-column: 1 / 3;
-      }
-
-      div.grid div.right-align {
-        text-align: right;
-      }
-
-      label {
-        padding-left: 10px;
-      }
-
-      button,
-      input,
-      textarea {
-        padding: 10px;
-      }
-
-      input[type="file"] {
-        padding: 0;
-      }
+      
     </style>
     <script type="text/javascript">
     window.onload = function () {
@@ -50,7 +31,7 @@ pageEncoding="UTF-8"%>
   			<h1>${errorMessage}</h1>
   		</dialog>
   	</c:if>
- 
+  	<jsp:include page="../member/membermenu.jsp"></jsp:include>
     <h1>게시글 수정</h1>
     <form
       action="/board/modify/${boardVO.id}"
