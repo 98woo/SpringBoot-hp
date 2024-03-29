@@ -1,8 +1,10 @@
 $().ready(function () {
 	$("a.deleteMe").on("click", function () {
 		$.get("/member/delete-me", function (response) {
-			var next = response.date.next;
+			console.log(response);
+			var next = response.data.next;
 			location.href = next;
+			// console.log(next);
 		});
 	});
 });

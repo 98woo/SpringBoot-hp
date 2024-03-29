@@ -12,5 +12,16 @@
     <fullyQualifiedTypeName name="com.hello.forum.utils.ValidationUtils"/>
     <fullyQualifiedTypeName name="com.hello.forum.utils.Validator"/>
     <fullyQualifiedTypeName name="com.hello.forum.utils.Validator.Type"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.FilterRegistrationBean"/>
+    <fullyQualifiedTypeName name="com.hello.forum.filters.SessionFilter"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.filter.Filter"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.Filter"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.ViewResolverRegistry"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.apache.tika.utils.StringUtils"/>
 </qualifiedTypeNameHistroy>

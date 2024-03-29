@@ -1,27 +1,27 @@
 
-j
-java:S1066\"/Merge this if statement with the enclosing one.8Ô–…Íç1b 39c8942e1038872a822c0dc75eedbde3h
-Z
-java:S1640""Convert this Map to an EnumMap.8Ô–…Íç1b 1567593d18d1a9bcaf8e121608ce8c4ch
-Z
-java:S1640-"Convert this Map to an EnumMap.8Ô–…Íç1b 1567593d18d1a9bcaf8e121608ce8c4ch
-Z
-java:S1640f"Convert this Map to an EnumMap.8Ô–…Íç1b 1567593d18d1a9bcaf8e121608ce8c4ch
-ƒ
-java:S3824!"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b d116eb82ffe691ee4d76dbc70352469ah
-ƒ
-java:S3824'"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b df9cb81047a50ef28c00972354b10a2eh
-ƒ
-java:S3824,"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b d90afdb835e3673b4469cad8cf6fb6fbh
-ƒ
-java:S38243"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b f7b91abfa7a5669782c2136416dbb38fh
-
-java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.8Ô–…Íç1b ea2b2676c28c0db26d39331a336c6b92h
-g
-java:S1602",Remove useless curly braces around statement8Ô–…Íç1b f95b70fdc3088560732a5ac135644506h
 `
 java:S1168†"$Return an empty map instead of null.8Ô–…Íç1b 37a6259cc0c1dae299a7866489dff0bdh
 x
 java:S6353 "<Use concise character class syntax '\\d' instead of '[0-9]'.8Ô–…Íç1b 213dc3edb2dcf23ba41937eb2beefbfah
+j
+java:S1066\"/Merge this if statement with the enclosing one.8Ô–…Íç1b 39c8942e1038872a822c0dc75eedbde3h
+Z
+java:S1640f"Convert this Map to an EnumMap.8Ô–…Íç1b 1567593d18d1a9bcaf8e121608ce8c4ch
+Z
+java:S1640-"Convert this Map to an EnumMap.8Ô–…Íç1b 1567593d18d1a9bcaf8e121608ce8c4ch
+ƒ
+java:S3824,"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b d90afdb835e3673b4469cad8cf6fb6fbh
+Z
+java:S1640""Convert this Map to an EnumMap.8Ô–…Íç1b 1567593d18d1a9bcaf8e121608ce8c4ch
+ƒ
+java:S38243"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b f7b91abfa7a5669782c2136416dbb38fh
+
+java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.8Ô–…Íç1b ea2b2676c28c0db26d39331a336c6b92h
 h
 java:S3011®",This accessibility update should be removed.8Ô–…Íç1b 947db61fa2f52e6bbde7bcb4ababfb81h
+ƒ
+java:S3824'"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b df9cb81047a50ef28c00972354b10a2eh
+ƒ
+java:S3824!"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".8Ô–…Íç1b d116eb82ffe691ee4d76dbc70352469ah
+g
+java:S1602",Remove useless curly braces around statement8Ô–…Íç1b f95b70fdc3088560732a5ac135644506h

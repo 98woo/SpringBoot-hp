@@ -1,0 +1,30 @@
+package com.hello.forum.beans;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import com.hello.forum.filters.SessionFilter;
+
+import jakarta.servlet.Filter;
+
+@Configuration  // Spring Interceptor, Servlet Filter, MVC 설정
+@Configurable
+@EnableWebMvc	// (yml mvc 설정을 나중에 가져옴) MVC와 관련된 여러 가지 기능들이 활성화 된다.
+				// MVC와 관련된 설정들은 이 파일에 작성해야 한다.
+				// 그 중 하나가 파라미터 유효성 검사이다.
+public class WebConfig implements WebMvcConfigurer{
+	// Filter 등록 
+	public FilterRegistrationBean<Filter> filter() {
+		
+		FilterRegistrationBean<Filter> filterRegistrationBean = new FilterRegistrationBean<>();
+		filterRegistrationBean.setFilter(new SessionFilter());
+		filterRegistrationBean.setUrlPatterns(List.of("/board/write", "/board/modify/*", "/board/delete/*"));
+		
+		return filterRegistrationBean;
+	}
+}

@@ -9,6 +9,7 @@ $().ready(function () {
 		$.post("/member/login", {
 			email: $("#email").val(),
 			password: $("#password").val(),
+			nextUrl: $("#nextUrl").val(),
 		},
 		function (response) {
 			
