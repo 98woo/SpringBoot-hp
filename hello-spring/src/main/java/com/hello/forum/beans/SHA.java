@@ -4,6 +4,11 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.hello.forum.bbs.service.BoardServiceImpl;
+
 /**
  * 개인정보 암호화의 한 종류이다. 데이터 베이스에 암호화된 패스워드가 저장된다.
  * 
@@ -13,6 +18,8 @@ import java.util.Random;
  *
  */
 public class SHA {
+	
+	private Logger logger = LoggerFactory.getLogger(SHA.class);
 
 	/**
 	 * SHA-256 암호화 함
@@ -54,6 +61,7 @@ public class SHA {
 			result = sb.toString();
 		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 		
 		return result;

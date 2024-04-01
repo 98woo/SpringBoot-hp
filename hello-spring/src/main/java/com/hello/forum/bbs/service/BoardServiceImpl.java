@@ -1,7 +1,18 @@
 package com.hello.forum.bbs.service;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -11,6 +22,10 @@ import com.hello.forum.bbs.vo.BoardListVO;
 import com.hello.forum.bbs.vo.BoardVO;
 import com.hello.forum.beans.FileHandler;
 import com.hello.forum.beans.FileHandler.StoredFile;
+import com.hello.forum.exceptions.PageNotFoundException;
+
+import io.github.seccoding.excel.option.ReadOption;
+import io.github.seccoding.excel.read.ExcelRead;
 
 /*
  * @Service: @Controller 와 @Repository를 연결하는 역할
@@ -35,6 +50,8 @@ import com.hello.forum.beans.FileHandler.StoredFile;
  */
 @Service
 public class BoardServiceImpl implements BoardService {
+	
+	private Logger logger = LoggerFactory.getLogger(BoardServiceImpl.class);
 
 	/**
 	 * 멤버변수 위에 @Autowired를 작성하면
@@ -51,7 +68,6 @@ public class BoardServiceImpl implements BoardService {
 	public BoardListVO getAllBoard() {
 		// BoardDaoImpl의 getBoardAllCount를 이용해서 게시글의 건 수를 알고 싶고
 		int boardCount = this.boardDao.getBoardAllCount();
-		
 		// BoardDaoImpl의 getAllBoard를 이용해서 게시글의 목록을 알고싶다!
 		List<BoardVO> boardList = this.boardDao.getAllBoard();
 		
@@ -88,7 +104,7 @@ public class BoardServiceImpl implements BoardService {
 		
 		// 게시글을 조회한 결과가 null 이라면, 잘못된 접근입니다. 예외를 발생시킨다.
 		if (boardVO == null) {
-			throw new IllegalArgumentException("잘못된 접근입니다.");
+			throw new PageNotFoundException();
 		}
 		
 		if (isIncrease) {
@@ -157,6 +173,96 @@ public class BoardServiceImpl implements BoardService {
 		
 		int deletedCount = this.boardDao.deleteOneBoard(id);
 		return deletedCount > 0;
+	}
+
+	@Override
+	public boolean createMassiveBoard(MultipartFile excelFile) {
+		
+		int insertedCount = 0;
+		int rowSize = 0;
+		
+		if (excelFile != null && !excelFile.isEmpty()) {
+			StoredFile storedExcel = this.fileHandler.storeFile(excelFile); // 서버에 파일을 업로드한다. storedExcel 에 저장
+			if (storedExcel != null) {
+				// 엑셀 파일을 읽는다.
+				// 1. FileSystem 에 있는 파일을 Java로 읽어와야 한다. (InputStream)
+				InputStream excelFileInputStream = null;
+				try {
+					excelFileInputStream = new FileInputStream(storedExcel.getRealFilePath());
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+					logger.error(e.getMessage(), e);
+				}
+				// 2. Apache POI 를 활용해서 InputStream의 내용을 엑셀 문서로 읽어온다.
+				Workbook excelWorkbook = null;
+				if (excelFileInputStream != null) {
+					try {
+						excelWorkbook = new XSSFWorkbook(excelFileInputStream);
+					} catch (IOException e) {
+						e.printStackTrace();
+						logger.error(e.getMessage(), e);
+					}
+				}
+				
+				// 엑셀 파일의 특정 Sheet 에 있는 모든 데이터를 찾아 List<BoardVO> 로 만들어준다.
+				List<BoardVO> boardListInExcel = new ArrayList<>();
+				if (excelWorkbook != null) {
+					// Sheet 호출
+					Sheet sheet = excelWorkbook.getSheet("Sheet1");
+					
+					// Sheet 에서 데이터가 있는 Row만틈 반복을 한다.
+					// 1. Sheet에서 데이터가 몇개의 Row 로 구성되어 있는지 확인한다.
+					rowSize = sheet.getPhysicalNumberOfRows();
+					
+					// 2. 첫 번째 Row 부터 rowSize만틈 반복한다.
+					for (int i  = 1; i < rowSize; i++) { // 타이틀 제외 
+						// 3. i 번째 Row를 가져온다.
+						Row row = sheet.getRow(i);
+						
+						// 4. Row에 있는 Cell(게시글 정보)들을 가져온다.
+						String author = row.getCell(0).getStringCellValue();
+						String subject = row.getCell(1).getStringCellValue();
+						String description = row.getCell(2).getStringCellValue();
+						
+						BoardVO boardVO = new BoardVO();
+						boardVO.setEmail(author);
+						boardVO.setSubject(subject);
+						boardVO.setContent(description);
+						
+						boardListInExcel.add(boardVO);
+					}
+				}
+				// List.<BoardVO>에 있는 내용을 모두 Insert 한다.
+				for (BoardVO boardVO : boardListInExcel) {
+					insertedCount += this.boardDao.insertNewBoard(boardVO);
+				}
+			}
+		}
+		return insertedCount > 0 && insertedCount == rowSize - 1;
+	}
+
+	@Override
+	public boolean createMassiveBoard2(MultipartFile excelFile) {
+		
+		int insertedCount = 0;
+		int rowSize = 0;
+		
+		if (excelFile != null && !excelFile.isEmpty()) {
+			StoredFile storedExcel = this.fileHandler.storeFile(excelFile, false); // 서버에 파일을 업로드한다. storedExcel 에 저장
+			if (storedExcel != null) {
+				
+				ReadOption readOption = new ReadOption();
+				readOption.setFilePath(storedExcel.getRealFilePath());
+				
+				List<BoardVO> boardListInExcel = new ExcelRead<BoardVO>().readToList(readOption, BoardVO.class);
+				
+				// List.<BoardVO>에 있는 내용을 모두 Insert 한다.
+				for (BoardVO boardVO : boardListInExcel) {
+					insertedCount += this.boardDao.insertNewBoard(boardVO);
+				}
+			}
+		}
+		return insertedCount > 0 && insertedCount == rowSize;
 	}
 
 }

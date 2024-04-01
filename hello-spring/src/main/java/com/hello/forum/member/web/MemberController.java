@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttribute;
 
+import com.hello.forum.beans.FileHandler;
 import com.hello.forum.member.service.MemberService;
 import com.hello.forum.member.vo.MemberVO;
 import com.hello.forum.utils.AjaxResponse;
@@ -28,6 +31,8 @@ import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class MemberController {
+	
+	private Logger logger = LoggerFactory.getLogger(MemberController.class);
 
 	@Autowired
 	private MemberService memberService;
@@ -35,7 +40,6 @@ public class MemberController {
 	@GetMapping("/member/regist")
 	public String viewRegistMemberPage(Model model) {
 		
-		System.out.println("member member member");
 		return "member/memberregist";
 	}
 	
@@ -139,7 +143,7 @@ public class MemberController {
 	@PostMapping("/member/login")
 	public AjaxResponse doLogin(MemberVO memberVO, HttpSession session, @RequestParam(defaultValue = "/board/list") String nextUrl) {
 		
-		System.out.println("NextURL: " + nextUrl);
+		logger.debug("NextURL: " + nextUrl);
 		
 		// Validation Check 파라미터 유효성 검사
 		Validator<MemberVO> validator = new Validator<>(memberVO);
@@ -160,11 +164,11 @@ public class MemberController {
 		// 로그인이 정상적으로 이루어졌다면 세션을 생성한다.
 			MemberVO member = this.memberService.getMember(memberVO);
 			
-			System.out.println(session.getId());
+			logger.debug(session.getId());
 			//						key			value
 			session.setAttribute("_LOGIN_USER_", member);
 			// 세션의 만료 시간을 지정할 수 있다. request 를 발생 시키지 않으면 지정한 시간이 지난 후 로그아웃된다.
-			session.setMaxInactiveInterval(30);
+			session.setMaxInactiveInterval(60 * 20);
 			
 		} catch (IllegalArgumentException iae) {
 			// 로그인에 실패했다면 화면으로 실패 사유를 보내준다.

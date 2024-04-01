@@ -6,6 +6,7 @@ pageEncoding="UTF-8"%> <%@ taglib prefix="c" uri="jakarta.tags.core" %>
     <meta charset="UTF-8" />
     <title>게시글 목록</title>
     <jsp:include page="../commonheader.jsp"></jsp:include>
+    <script type="text/javascript" src="/js/boardlist.js"></script>
     <style type="text/css">
       
       div.grid {
@@ -91,8 +92,10 @@ pageEncoding="UTF-8"%> <%@ taglib prefix="c" uri="jakarta.tags.core" %>
         </tbody>
       </table>
       <c:if test="${not empty sessionScope._LOGIN_USER_}">
-	      <div class="right-align"><a href="/board/excel/download">엑셀 다운로드</a></div>
+	      <div class="right-align"><a href="/board/excel/download2">엑셀 다운로드</a></div>
     	  <div class="right-align"><a href="/board/write">게시글 등록</a></div>
+    	  <div class="right-align"><a href="javascript:void(0)" id="uploadExcelfile">일괄 등록</a></div>
+    	  <input type="file" id="excelfile" style="display: none;" />
       </c:if>
     </div>
   </body>

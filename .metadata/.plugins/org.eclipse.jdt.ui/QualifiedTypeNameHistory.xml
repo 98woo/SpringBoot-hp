@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Email"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="com.hello.forum.utils.ValidationUtils"/>
     <fullyQualifiedTypeName name="com.hello.forum.utils.Validator"/>
@@ -24,4 +23,21 @@
     <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.apache.tika.utils.StringUtils"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
+    <fullyQualifiedTypeName name="com.hello.forum.utils.AjaxResponse"/>
+    <fullyQualifiedTypeName name="io.github.seccoding.excel.write.ExcelWrite"/>
+    <fullyQualifiedTypeName name="io.github.seccoding.excel.annotations.Format"/>
+    <fullyQualifiedTypeName name="io.github.seccoding.excel.annotations.Field"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="exceptions.PageNotFoundException"/>
+    <fullyQualifiedTypeName name="exceptions.MakeXlsxFileException"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.rmi.AlreadyBoundException"/>
+    <fullyQualifiedTypeName name="exceptions.AlreadyUseException"/>
+    <fullyQualifiedTypeName name="exceptions.UserIdentifyNotMatchException"/>
+    <fullyQualifiedTypeName name="exceptions.FileNotExistsException"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>

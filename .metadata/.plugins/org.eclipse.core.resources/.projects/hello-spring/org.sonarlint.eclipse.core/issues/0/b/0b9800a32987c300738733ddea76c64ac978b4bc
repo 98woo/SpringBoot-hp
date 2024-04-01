@@ -1,7 +1,18 @@
 
-v	java:S1253"<This block of commented-out lines of code should be removed.8à†ŠÃè1b 42e302b83561beb1776020394a5f5d3ah
-v	java:S125+"<This block of commented-out lines of code should be removed.8à†ŠÃè1b df326eaeab0f000169acdf56fcc9f628h
-v	java:S125\"<This block of commented-out lines of code should be removed.8Š‡–¿è1b 148256dfe1d99623958294566b58cea1h
-e	java:S1062"+Replace this use of System.out by a logger.8ùˆÀè1b bb1c3f2ea781263d3a2bb92b06a2061fh
-e	java:S1061"+Replace this use of System.out by a logger.8ùˆÀè1b bb1c3f2ea781263d3a2bb92b06a2061fh
-e	java:S1064"+Replace this use of System.out by a logger.8ùˆÀè1b bb1c3f2ea781263d3a2bb92b06a2061fh
+v	java:S1250"<This block of commented-out lines of code should be removed.8à†ŠÃè1b df326eaeab0f000169acdf56fcc9f628h
+v	java:S125a"<This block of commented-out lines of code should be removed.8Š‡–¿è1b 148256dfe1d99623958294566b58cea1h
+r
+java:S26296"7Use the built-in formatting to construct this argument.8 ôßÂé1b 1ae308fc5ab70871cb79b5fb5dadc6c5h
+r
+java:S26297"7Use the built-in formatting to construct this argument.8 ôßÂé1b 7d1c473e88e08b4cfed912a2579deabbh
+r
+java:S26299"7Use the built-in formatting to construct this argument.8 ôßÂé1b ca7fb86f7bb00f2c040b7838d87381d8h
+|
+java:S34576"AFormat specifiers should be used instead of string concatenation.8 ôßÂé1b 2a4fd6e550803f1467ca7ce85196427dh
+|
+java:S34577"AFormat specifiers should be used instead of string concatenation.8 ôßÂé1b baddd2351c6e620a725744c8207e854eh
+|
+java:S34579"AFormat specifiers should be used instead of string concatenation.8 ôßÂé1b 0197ccd475030358ab068c022e79676fh
+v	java:S1258"<This block of commented-out lines of code should be removed.8 ôßÂé1b 4ce18799f8e6b9ca3d3039b80c2680c4h
+
+java:S1128"DRemove this unused import 'com.hello.forum.bbs.web.BoardController'.8 ôßÂé1b 76f47beb1ace67e15a6d6b666f402b40h

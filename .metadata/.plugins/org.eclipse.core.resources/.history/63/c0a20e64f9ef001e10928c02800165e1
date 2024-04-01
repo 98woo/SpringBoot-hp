@@ -1,0 +1,13 @@
+package exceptions;
+
+public class FileNotExistsException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3659346964692465733L;
+
+
+	
+
+}

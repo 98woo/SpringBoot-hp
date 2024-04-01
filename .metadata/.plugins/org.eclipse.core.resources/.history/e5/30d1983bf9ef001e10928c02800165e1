@@ -1,0 +1,12 @@
+package exceptions;
+
+public class AlreadyUseException extends RuntimeException {
+
+	
+	private String email;
+	
+	public AlreadyUserException(String email) {
+		super("이미 사용중인 이메일입니다.");
+		this.email = email;
+	}
+}

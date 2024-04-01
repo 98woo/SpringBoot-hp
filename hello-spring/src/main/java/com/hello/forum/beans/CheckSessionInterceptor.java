@@ -1,8 +1,11 @@
 package com.hello.forum.beans;
 
 import org.apache.tika.utils.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.HandlerInterceptor;
 
+import com.hello.forum.bbs.web.BoardController;
 import com.hello.forum.member.vo.MemberVO;
 
 import jakarta.servlet.RequestDispatcher;
@@ -11,6 +14,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 public class CheckSessionInterceptor implements HandlerInterceptor {
+	
+	private Logger logger = LoggerFactory.getLogger(CheckSessionInterceptor.class);
 
 	// 컨트롤러가 실행되기 전에 요청을 가로챈다. ㅓ
 	// 브라우저가 서버에 요청한 정보, 서버가 브라우저에 응답할 정보, 실행할 컨트롤러
@@ -46,10 +51,10 @@ public class CheckSessionInterceptor implements HandlerInterceptor {
 			// 쿼리의 파라미터를 가져온다.
 			String queryString = request.getQueryString();
 			
-			System.out.println("QueryString " + queryString);
-			System.out.println("HttpMethod: " + httpMethod);
-//			System.out.println("RequestURL " + url);
-			System.out.println("RequestURI " + uri);
+			logger.debug("QueryString " + queryString);
+			logger.debug("HttpMethod: " + httpMethod);
+//			logger.debug("RequestURL " + url);
+			logger.debug("RequestURI " + uri);
 			
 			
 			if (httpMethod.equals("get")) {

@@ -1,0 +1,7 @@
+
+R
+java:S1165
+"Make this "email" field final.b 0c83f57c786a0b4a39efab23731c7ebch
+]
+java:S1068
+")Remove this unused "email" private field.b 0c83f57c786a0b4a39efab23731c7ebch

@@ -1,7 +1,10 @@
 
 ö
-java:S11491"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".8ûÀ≈ Á1b 44f2f3b7f27e0930b2cc3f6340e0ca94h
+java:S11498"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".8ûÀ≈ Á1b 44f2f3b7f27e0930b2cc3f6340e0ca94h
 Y
-java:S2119C"Save and re-use this "Random".8ûÀ≈ Á1b 64663f4646781c9c0110838b905daa23h
+java:S2119K"Save and re-use this "Random".8ûÀ≈ Á1b 64663f4646781c9c0110838b905daa23h
 ö
-java:S1149H"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".8ûÀ≈ Á1b 44f2f3b7f27e0930b2cc3f6340e0ca94h
+java:S1149P"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".8ûÀ≈ Á1b 44f2f3b7f27e0930b2cc3f6340e0ca94h
+Ñ
+java:S1128
+"IRemove this unused import 'com.hello.forum.bbs.service.BoardServiceImpl'.8æ‚˘¬È1b 89c22567871afed2ecd92ff9b554d720h

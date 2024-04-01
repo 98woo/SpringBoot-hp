@@ -1,13 +1,15 @@
 
+o	java:S125I"<This block of commented-out lines of code should be removed.b cfd2a606b9d7ae4cef328bf6e7d4c54dh
+o	java:S125O"<This block of commented-out lines of code should be removed.b e15e9b8f4ccf79abe1b7bdeb10a97b17h
 
-java:S1488*"dImmediately return this expression instead of assigning it to the temporary variable "responseBody".b 25185318dfed771fc4898bc9bdc3e6fah
+java:S14880"dImmediately return this expression instead of assigning it to the temporary variable "responseBody".b 25185318dfed771fc4898bc9bdc3e6fah
 
-java:S1488<"dImmediately return this expression instead of assigning it to the temporary variable "responseBody".b 4fa44343694d00c37a3e6363f83c4b4bh
+java:S1488B"dImmediately return this expression instead of assigning it to the temporary variable "responseBody".b 4fa44343694d00c37a3e6363f83c4b4bh
 “
-java:S11490"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".b 44f2f3b7f27e0930b2cc3f6340e0ca94h
-o	java:S125"<This block of commented-out lines of code should be removed.b 5064260b7f000a28b53fc72ee7d1a7e6h
-^	java:S106""+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
-^	java:S106#"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
-o	java:S125&"<This block of commented-out lines of code should be removed.b b341a7fa2ce025264cd7e4b6a65fde17h
-o	java:S125C"<This block of commented-out lines of code should be removed.b cfd2a606b9d7ae4cef328bf6e7d4c54dh
-o	java:S125I"<This block of commented-out lines of code should be removed.b e15e9b8f4ccf79abe1b7bdeb10a97b17h
+java:S11496"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".b 44f2f3b7f27e0930b2cc3f6340e0ca94h
+o	java:S125"<This block of commented-out lines of code should be removed.b 5064260b7f000a28b53fc72ee7d1a7e6h
+o	java:S125,"<This block of commented-out lines of code should be removed.b b341a7fa2ce025264cd7e4b6a65fde17h
+_
+java:S2629)"$Invoke method(s) only conditionally.8πΓι1b dd6f8cc6658ad9bd4e9a15d32995649ch
+ƒ
+java:S1128"HRemove this unused import 'com.hello.forum.member.web.MemberController'.8πΓι1b e36b514ce09e8847d12d663e8388d506h

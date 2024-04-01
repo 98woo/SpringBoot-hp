@@ -1,0 +1,13 @@
+package exceptions;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+/**
+ * Base Package (com.hello.forum) 아래에서 발생하는
+ * 처리되지 않은 모든 예외들을 ControllerAdvice 가 처리해준다.
+ */
+@ControllerAdvice
+public class GlobalExceptionHandler {
+
+	
+}

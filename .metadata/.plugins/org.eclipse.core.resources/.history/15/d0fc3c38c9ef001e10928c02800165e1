@@ -1,0 +1,16 @@
+$().ready(function () {
+	$("#uploadExcelfile").on("click", function () {
+		$("#excelfile").click();
+	});
+	
+	/* 파일이 선택되면 수행해라 */
+	$("#excelfile").on("change", function () {
+		// 선택된 파일의 정보를 출력
+		var file = $(this)[0].files[0]; // Input 파일 타입의 선택된 첫 번째 
+		var filename = file.name;
+		
+		if (!filename.endsWith(".xlsc")) {
+			alert("엑셀 파일을 선택해주세요!!");
+		}
+	});
+});

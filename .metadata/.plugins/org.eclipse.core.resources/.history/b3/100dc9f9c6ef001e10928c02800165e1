@@ -1,0 +1,6 @@
+$().ready(function () {
+	$("#uploadExcelfile").on("click", function () {
+		$("#excelfile").click();
+	})
+	
+})

@@ -1,0 +1,33 @@
+
+Ÿ
+java:S1192h"kDefine a constant instead of duplicating this literal " íŒŒì¼ì€ ì—…ë¡œë“œ í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤." 3 times.b fc148d2b27bc8a2866986daff52eddf4h
+Š
+java:S2259I"V"NullPointerException" will be thrown when invoking method "getObfuscationFileName()".b fbd4231805b76f2dfb4bb0d7f532fc46h
+n	java:S899j";Do something with the "boolean" value returned by "delete".b 8b57f8d05e852e46a6c8240cab89f0b9h
+‚
+java:S4042j"NUse "java.nio.file.Files#delete" here for better messages on error conditions.b 099af53f601532dbd31e0ea99ffdeb64h
+n	java:S899w";Do something with the "boolean" value returned by "delete".b 8b57f8d05e852e46a6c8240cab89f0b9h
+‚
+java:S4042w"NUse "java.nio.file.Files#delete" here for better messages on error conditions.b 099af53f601532dbd31e0ea99ffdeb64h
+n	java:S899~";Do something with the "boolean" value returned by "delete".b 8b57f8d05e852e46a6c8240cab89f0b9h
+‚
+java:S4042~"NUse "java.nio.file.Files#delete" here for better messages on error conditions.b 099af53f601532dbd31e0ea99ffdeb64h
+o	java:S899Ç";Do something with the "boolean" value returned by "delete".b 22b52cdc1303da5309ced103592e55fch
+ƒ
+java:S4042Ç"NUse "java.nio.file.Files#delete" here for better messages on error conditions.b 099af53f601532dbd31e0ea99ffdeb64h
+s
+java:S4719è">Replace charset name argument with StandardCharsets.ISO_8859_1b f1a82871438019d637bb9a7ad2e5be66h
+n
+java:S4719è"9Replace charset name argument with StandardCharsets.UTF_8b 52cbbfbe0fa388d2fc0de5075ed904beh
+r
+java:S2629"7Use the built-in formatting to construct this argument.8‹ŠşÂé1b ac2e59772a7c87f757252e0bcbd5b84ah
+s
+java:S2629ƒ"7Use the built-in formatting to construct this argument.8‹ŠşÂé1b 962b9e6bd8905a53b2fac475f3c956cbh
+|
+java:S3457h"AFormat specifiers should be used instead of string concatenation.8‹ŠşÂé1b f314094a184cabce32f98602499970c3h
+|
+java:S3457u"AFormat specifiers should be used instead of string concatenation.8‹ŠşÂé1b f314094a184cabce32f98602499970c3h
+|
+java:S3457"AFormat specifiers should be used instead of string concatenation.8‹ŠşÂé1b f314094a184cabce32f98602499970c3h
+}
+java:S3457ƒ"AFormat specifiers should be used instead of string concatenation.8‹ŠşÂé1b 730597677282dcfb58ac0a21266162eah
