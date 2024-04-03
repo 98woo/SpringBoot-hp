@@ -1,0 +1,31 @@
+$().ready(function () {
+	$(".delete-board").on("click", function () {
+		var chooseValue = confirm(
+			"이 게시글을 정말 삭제하시겠습니까?\n삭제작업은 복구할 수 없습니다."
+		);
+		
+		var id = $(this).closest(".grid").data("id");
+		
+		if (chooseValue) {
+			location.href = "/board/delete/" + id;
+		}
+	});
+	
+	
+	// 댓글 javascript, jQuery 짬봉 
+	// jQuery 요청해서 동적으로 접근해야 한다.
+	
+	var modifyReply = function (event) {};
+	var deleteReply = function (event) {};
+	var reReply = function (evnet) {};
+	var recommendReply = function (event) {};
+	var loadReplies = function () {};
+	
+	loadReplies();
+	
+	$("#btn-save-reply").on("click", function () {});
+	$("#btn-cancel-reply").on("click", function () {});
+	
+	
+});
+

@@ -1,47 +1,47 @@
 
-ä
-java:S1192H"VDefine a constant instead of duplicating this literal "> availableFileList: " 4 times.b 3ff8015cbee330aea0ad7c6946e51223h
-`
-java:S6857"",Correct this malformed property placeholder.b 7119610cd33ba7e718d11abfa3299cfah
-
-java:S1128"DRemove this unused import 'com.hello.forum.bbs.web.BoardController'.8ìÁ¸¬È1b 76f47beb1ace67e15a6d6b666f402b40h
-r
-java:S26298"7Use the built-in formatting to construct this argument.8‹¡û√È1b 80b26ad9f9e996d0c2a8c8d96fe10017h
-r
-java:S26299"7Use the built-in formatting to construct this argument.8‹¡û√È1b 2c7a3754676a72dfd1d37aefcfc3115ch
-r
-java:S2629:"7Use the built-in formatting to construct this argument.8‹¡û√È1b 4f0757cd614b2a6e7cb54180571b28f2h
 |
 java:S34578"AFormat specifiers should be used instead of string concatenation.8‹¡û√È1b 0a93aac599a20959a862aa69497fc17ch
+ó
+java:S2629K"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.8·’†√È1b 87ceac849c636731a953e23ae515a6f2h
+ó
+java:S2629I"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.8·’†√È1b 79ce483c5e0384c437730e1e171744a3h
 |
 java:S34579"AFormat specifiers should be used instead of string concatenation.8‹¡û√È1b abcea8632eea32745d7a796c7732a3eah
 |
-java:S3457:"AFormat specifiers should be used instead of string concatenation.8‹¡û√È1b 41a37c465b239011e2073997156d92e7h
+java:S3457G"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 328be7070687545b892a491e265d2d96h
+
+java:S1128"DRemove this unused import 'com.hello.forum.bbs.web.BoardController'.8ìÁ¸¬È1b 76f47beb1ace67e15a6d6b666f402b40h
 r
-java:S2629E"7Use the built-in formatting to construct this argument.8·’†√È1b 90f078969b21f513ad634839ae72d34ch
+java:S26299"7Use the built-in formatting to construct this argument.8‹¡û√È1b 2c7a3754676a72dfd1d37aefcfc3115ch
+ä
+java:S1192H"VDefine a constant instead of duplicating this literal "> availableFileList: " 4 times.b 3ff8015cbee330aea0ad7c6946e51223h
+ó
+java:S2629J"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.8·’†√È1b a295a0cb554062e42c4381e59595c1c2h
+r
+java:S26298"7Use the built-in formatting to construct this argument.8‹¡û√È1b 80b26ad9f9e996d0c2a8c8d96fe10017h
 r
 java:S2629F"7Use the built-in formatting to construct this argument.8·’†√È1b bde8eb254b7eb72bb3d3353078f8bdc8h
 r
-java:S2629G"7Use the built-in formatting to construct this argument.8·’†√È1b 216a95b095de0cea3f5d73305662f940h
+java:S2629E"7Use the built-in formatting to construct this argument.8·’†√È1b 90f078969b21f513ad634839ae72d34ch
+|
+java:S3457I"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 78f8bb5e840f2f965611927532f3e436h
+`
+java:S6857"",Correct this malformed property placeholder.b 7119610cd33ba7e718d11abfa3299cfah
 r
-java:S2629H"7Use the built-in formatting to construct this argument.8·’†√È1b 68fa050f52de681f4b865974c90d2026h
-ó
-java:S2629I"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.8·’†√È1b 79ce483c5e0384c437730e1e171744a3h
-ó
-java:S2629J"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.8·’†√È1b a295a0cb554062e42c4381e59595c1c2h
-ó
-java:S2629K"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.8·’†√È1b 87ceac849c636731a953e23ae515a6f2h
+java:S2629:"7Use the built-in formatting to construct this argument.8‹¡û√È1b 4f0757cd614b2a6e7cb54180571b28f2h
 |
-java:S3457E"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 3f174d46b143ffcdb5ed0dfcb8fe4c7bh
-|
-java:S3457F"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 10ebc21aa2376f93f8fabc28a33ae8f8h
-|
-java:S3457G"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 328be7070687545b892a491e265d2d96h
+java:S3457:"AFormat specifiers should be used instead of string concatenation.8‹¡û√È1b 41a37c465b239011e2073997156d92e7h
 |
 java:S3457H"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 90ef7c93a27aa252f9ea64f74f039113h
 |
-java:S3457I"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 78f8bb5e840f2f965611927532f3e436h
-|
 java:S3457J"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 1778e8635f78027dc62a7e6f73a80422h
+r
+java:S2629H"7Use the built-in formatting to construct this argument.8·’†√È1b 68fa050f52de681f4b865974c90d2026h
+|
+java:S3457F"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 10ebc21aa2376f93f8fabc28a33ae8f8h
+r
+java:S2629G"7Use the built-in formatting to construct this argument.8·’†√È1b 216a95b095de0cea3f5d73305662f940h
+|
+java:S3457E"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 3f174d46b143ffcdb5ed0dfcb8fe4c7bh
 |
 java:S3457K"AFormat specifiers should be used instead of string concatenation.8·’†√È1b 303a7fb41f6f1a778320a6239f08410eh

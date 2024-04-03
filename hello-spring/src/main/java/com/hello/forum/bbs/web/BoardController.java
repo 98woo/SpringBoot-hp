@@ -449,7 +449,7 @@ public class BoardController {
 	
 	// 엑셀 일괄 등록하기 (정보를 읽어와서 한 번에 DB에 등록)
 	@ResponseBody
-	@PostMapping("/board/excel/write")
+	@PostMapping("/ajax/board/excel/write")
 	public AjaxResponse doExcelUpload(@RequestParam MultipartFile excelFile) {
 		
 		boolean isSuccess = this.boardService.createMassiveBoard2(excelFile);

@@ -1,16 +1,4 @@
 
-v	java:S125:"<This block of commented-out lines of code should be removed.8®¢Å»Á1b f95b70fdc3088560732a5ac135644506h
-z
-java:S2441©">Make "MemberVO" serializable or don't store it in the session.8ﬁ∏áÕÁ1b aa08769cdcb26674c6706093503ff0a3h
-w	java:S125ﬂ"<This block of commented-out lines of code should be removed.8Ä¿û¿Ë1b 4fb521cd8e6430db84d9d01eff52dc13h
-†
-java:S6833 "eReplace the "@Controller" annotation by "@RestController" and remove all "@ResponseBody" annotations.8®¢Å»Á1b dee1a9dfa91ea501126d7a4ecdad8cd0h
-à
-java:S1192O"MDefine a constant instead of duplicating this literal "errorMessage" 4 times.8í¬π»Á1b 660e7e93ec916045b50e6cb1a5078477h
-w	java:S125«"<This block of commented-out lines of code should be removed.8ﬂªèÛÁ1b ac3f269de9bba7c2b96248945c7775ddh
-v
-java:S6813%"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
-v	java:S125~"<This block of commented-out lines of code should be removed.8Ä¿û¿Ë1b f4dc81f4f8e3759f752837aa9af55de2h
 è
 java:S1192+"TDefine a constant instead of duplicating this literal "member/memberregist" 6 times.8ãÁ˙∆Á1b 4a3a6e4ea4f8c8c3ab4a5aaef522af3eh
 Ñ
@@ -19,7 +7,22 @@ java:S1192P"IDefine a constant instead of duplicating this literal "memberVO" 6
 java:S1192@"FDefine a constant instead of duplicating this literal "email" 3 times.8ê§ŸÕÁ1b 3c3c72fe212258ac2a73e59c9107bf76h
 s
 java:S2629í"7Use the built-in formatting to construct this argument.8èÁ¸¬È1b 8ae35b30425d709beb807e3f42d89d8fh
+w	java:S125«"<This block of commented-out lines of code should be removed.8ﬂªèÛÁ1b ac3f269de9bba7c2b96248945c7775ddh
+à
+java:S1192O"MDefine a constant instead of duplicating this literal "errorMessage" 3 times.8í¬π»Á1b 660e7e93ec916045b50e6cb1a5078477h
+w	java:S125ﬂ"<This block of commented-out lines of code should be removed.8Ä¿û¿Ë1b 4fb521cd8e6430db84d9d01eff52dc13h
+v
+java:S6813%"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v	java:S125~"<This block of commented-out lines of code should be removed.8Ä¿û¿Ë1b f4dc81f4f8e3759f752837aa9af55de2h
+v	java:S125:"<This block of commented-out lines of code should be removed.8®¢Å»Á1b f95b70fdc3088560732a5ac135644506h
 }
 java:S3457í"AFormat specifiers should be used instead of string concatenation.8èÁ¸¬È1b 92b8b69af69607740f691ee7bc3f98f0h
+†
+java:S6833 "eReplace the "@Controller" annotation by "@RestController" and remove all "@ResponseBody" annotations.8®¢Å»Á1b dee1a9dfa91ea501126d7a4ecdad8cd0h
+z
+java:S2441©">Make "MemberVO" serializable or don't store it in the session.8ﬁ∏áÕÁ1b aa08769cdcb26674c6706093503ff0a3h
 y
-java:S1128">Remove this unused import 'com.hello.forum.beans.FileHandler'.8èÁ¸¬È1b d061a554dc7785d1ae482c744fc17c39h
+java:S1128">Remove this unused import 'com.hello.forum.beans.FileHandler'.8∫≈œ·È1b d061a554dc7785d1ae482c744fc17c39h
+w	java:S125£"<This block of commented-out lines of code should be removed.8ªƒÍ·È1b 80d5b17efc16ace990c07580fc3e85ebh
+w	java:S125≠"<This block of commented-out lines of code should be removed.8ªƒÍ·È1b 32b4c469270d1ff831d5586a5bb41374h
+w	java:S125ß"<This block of commented-out lines of code should be removed.8»£∆‰È1b 38b4de5f364350c9b4510c340bee8229h

@@ -1,0 +1,34 @@
+package com.hello.forum.bbs.dao;
+
+import com.hello.forum.bbs.vo.ReplyVO;
+
+public interface ReplyDao {
+
+	/**
+	 * 게시글에 갯글을 등록한다.
+	 * @param replyVO 등록할 댓글의 정보
+	 * @return 댓글을 등록한 개수
+	 */
+	public int createNewReply(ReplyVO replyVO);
+	
+	/**
+	 * 댓글 하나를 삭제한다.
+	 * @param replyId 삭제할 댓글의 번호
+	 * @return 댓글을 삭제한 개수
+	 */
+	public int deleteOneReply(int replyId);
+	
+	/**
+	 * 댓글 내용을 수정한다.
+	 * @param replyVO 수정할 댓글의 정보
+	 * @return 수정된 댓글의 개수
+	 */
+	public int modifyOneReply(ReplyVO replyVO);
+	
+	/**
+	 * 댓글의 추천수를 1 증가시킨다.
+	 * @param replyId 추천수를 1 증가시킬 댓글 번호
+	 * @return 추천한 댓글의 개수
+	 */
+	public int recommendOneReply(int replyId);
+}

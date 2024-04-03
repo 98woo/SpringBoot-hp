@@ -1,36 +1,36 @@
 
-w	java:S125˜"<This block of commented-out lines of code should be removed.8¯ñôÊè1b eeea6a7dd2be215b04fe2222ab4ac563h
-w	java:S125õ"<This block of commented-out lines of code should be removed.8¯ñôÊè1b 46131060ae56885034495fbfecdfc229h
+‡
+java:S1192Ş"RDefine a constant instead of duplicating this literal "board/boardmodify" 3 times.b 0c33a85b26d56033a370bb2093b74353h
 p	java:S125Œ"<This block of commented-out lines of code should be removed.b b070f24fc225089a7d99c103c20b2962h
-v
-java:S68134"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
-w	java:S125€"<This block of commented-out lines of code should be removed.8¯ñôÊè1b 6ae571473ad72bf9b041da3e4e219f98h
 d	java:S108´")Either remove or fill this block of code.8¯ñôÊè1b f95b70fdc3088560732a5ac135644506h
-d	java:S108¸")Either remove or fill this block of code.8¯ñôÊè1b f95b70fdc3088560732a5ac135644506h
-…
-java:S1192T"QDefine a constant instead of duplicating this literal "board/boardwrite" 3 times.b 8fb645ca5cec11601a7b42f2ea53c486h
-f
-java:S2093¬"*Change this "try" to a try-with-resources.8¯ñôÊè1b 080f651e3fcca17df3a47c2cecfcb880h
-d	java:S108»")Either remove or fill this block of code.8¯ñôÊè1b f95b70fdc3088560732a5ac135644506h
 p	java:S125"<This block of commented-out lines of code should be removed.b a49df8f7fd59f712a745ee413a710e7dh
-Œ	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8¯ñôÊè1b d57146580a0c574761c647a665892487h
-o	java:S125-"<This block of commented-out lines of code should be removed.b 7311fa3899ced7fb7056b90505824ad5h
-w	java:S125"<This block of commented-out lines of code should be removed.8¯ñôÊè1b 4b7014100442542bcaef974764b76072h
-}
-java:S1192›"HDefine a constant instead of duplicating this literal "boardVO" 6 times.b 7fd03ba9ef11d3d27009229b95adab43h
+p	java:S125ˆ"<This block of commented-out lines of code should be removed.b de3ab34ae27c95b77a6a0712dcae34b1h
 v
 java:S6813;"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+w	java:S125˜"<This block of commented-out lines of code should be removed.8¯ñôÊè1b eeea6a7dd2be215b04fe2222ab4ac563h
+w	java:S125õ"<This block of commented-out lines of code should be removed.8¯ñôÊè1b 46131060ae56885034495fbfecdfc229h
+…
+java:S1192T"QDefine a constant instead of duplicating this literal "board/boardwrite" 3 times.b 8fb645ca5cec11601a7b42f2ea53c486h
+o	java:S125-"<This block of commented-out lines of code should be removed.b 7311fa3899ced7fb7056b90505824ad5h
+w	java:S125÷"<This block of commented-out lines of code should be removed.8¯ñôÊè1b e1a4fd18ffee05545d55dc40a607af9ah
+d	java:S108»")Either remove or fill this block of code.8¯ñôÊè1b f95b70fdc3088560732a5ac135644506h
+n
+java:S1481–"2Remove this unused "isEmailFormat" local variable.8¯ñôÊè1b 964979a7d6c400057d0cc2b358524ccah
+w	java:S125"<This block of commented-out lines of code should be removed.8¯ñôÊè1b 4b7014100442542bcaef974764b76072h
+‚
+java:S1192š"MDefine a constant instead of duplicating this literal "errorMessage" 4 times.b 660e7e93ec916045b50e6cb1a5078477h
+Œ	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8¯ñôÊè1b d57146580a0c574761c647a665892487h
+f
+java:S2093¬"*Change this "try" to a try-with-resources.8¯ñôÊè1b 080f651e3fcca17df3a47c2cecfcb880h
+d	java:S108¸")Either remove or fill this block of code.8¯ñôÊè1b f95b70fdc3088560732a5ac135644506h
+w	java:S125€"<This block of commented-out lines of code should be removed.8¯ñôÊè1b 6ae571473ad72bf9b041da3e4e219f98h
+}
+java:S1192›"HDefine a constant instead of duplicating this literal "boardVO" 6 times.b 7fd03ba9ef11d3d27009229b95adab43h
+ 
+java:S6833/"eReplace the "@Controller" annotation by "@RestController" and remove all "@ResponseBody" annotations.8Ñäª¹é1b dee1a9dfa91ea501126d7a4ecdad8cd0h
 ’
 java:S1192Û"VDefine a constant instead of duplicating this literal "ê²Œì‹œê¸€_ëª©ë¡.xlsx" 5 times.8¯ñôÊè1b e4827d39768feb262bcb28cbacf6401bh
 }
 java:S1854–"ARemove this useless assignment to local variable "isEmailFormat".8¯ñôÊè1b bfd08e35e04631ebfc77316116e7e08fh
-w	java:S125÷"<This block of commented-out lines of code should be removed.8¯ñôÊè1b e1a4fd18ffee05545d55dc40a607af9ah
-‡
-java:S1192Ş"RDefine a constant instead of duplicating this literal "board/boardmodify" 3 times.b 0c33a85b26d56033a370bb2093b74353h
-p	java:S125ˆ"<This block of commented-out lines of code should be removed.b de3ab34ae27c95b77a6a0712dcae34b1h
-n
-java:S1481–"2Remove this unused "isEmailFormat" local variable.8¯ñôÊè1b 964979a7d6c400057d0cc2b358524ccah
-‚
-java:S1192š"MDefine a constant instead of duplicating this literal "errorMessage" 4 times.b 660e7e93ec916045b50e6cb1a5078477h
- 
-java:S6833/"eReplace the "@Controller" annotation by "@RestController" and remove all "@ResponseBody" annotations.8Ñäª¹é1b dee1a9dfa91ea501126d7a4ecdad8cd0h
+v
+java:S68134"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h

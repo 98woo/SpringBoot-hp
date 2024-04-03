@@ -1,0 +1,9 @@
+
+‚
+java:S1192)"GDefine a constant instead of duplicating this literal "result" 4 times.8¥”îé1b d37b182e3d3a73693008735e56cb2450h
+}
+java:S6813"BRemove this field injection and use constructor injection instead.8¥”îé1b 0132ec8cee01c5dd244e1a60fe6448a1h
+i
+java:S1128".Remove this unused import 'java.util.HashMap'.8»ÛÜ‘ê1b d84992d255a05fff2c29a54090661da8h
+e
+java:S1128"*Remove this unused import 'java.util.Map'.8»ÛÜ‘ê1b 03ec136776d19432e0a31b46ebe07d1ah

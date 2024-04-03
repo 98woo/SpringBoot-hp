@@ -3,6 +3,7 @@ package com.hello.forum.member.service;
 import org.apache.tika.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.hello.forum.beans.SHA;
 import com.hello.forum.exceptions.AlreadyUseException;
@@ -20,6 +21,7 @@ public class MemberServiceImpl implements MemberService {
 	private MemberDao memberDao;
 	
 	
+	@Transactional
 	@Override
 	public boolean createNewMember(MemberVO memberVO) {
 		int emailCount = memberDao.getEmailCount(memberVO.getEmail());
@@ -76,6 +78,7 @@ public class MemberServiceImpl implements MemberService {
 	}
 
 
+	@Transactional
 	@Override
 	public boolean deleteMe(String email) {
 		

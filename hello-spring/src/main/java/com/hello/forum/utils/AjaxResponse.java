@@ -3,10 +3,13 @@ package com.hello.forum.utils;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.google.gson.annotations.SerializedName;
+
 public class AjaxResponse {
 
 	// 모든 ajax return 은 Map 으로 한다.
 	// Map 으로 하면 코드가 길어져 util 을 따로 만들어 관리한다. 
+	@SerializedName("data")
 	private Map<String, Object> response;
 
 	public AjaxResponse() {

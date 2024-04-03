@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.hello.forum.bbs.dao.BoardDao;
@@ -48,6 +49,7 @@ import io.github.seccoding.excel.read.ExcelRead;
  * @Repository
  * 위 3개는 모두 Spring이 객체로 생성해서 Bean Container에 보관하는 역할.
  */
+//@Transactional 권장하지 않는 방법이다.
 @Service
 public class BoardServiceImpl implements BoardService {
 	
@@ -78,6 +80,7 @@ public class BoardServiceImpl implements BoardService {
 		return boardListVO;
 	}
 
+	@Transactional
 	@Override
 	public boolean createNewBoard(BoardVO boardVO, MultipartFile file) {
 		// 사용자가 파일을 업로드 했다면
@@ -95,8 +98,12 @@ public class BoardServiceImpl implements BoardService {
 		
 		int insertedCount = this.boardDao.insertNewBoard(boardVO);
 		return insertedCount > 0;
+		
+		// NUmberFormatException 이 발생하면 ROLLBACK 한다.
+		
 	}
 
+	@Transactional
 	@Override
 	public BoardVO getOneBoard(int id, boolean isIncrease) {
 		// 1. 게시글 정보 조회하기
@@ -121,6 +128,7 @@ public class BoardServiceImpl implements BoardService {
 		return boardVO;
 	}
 
+	@Transactional
 	@Override
 	public boolean updateOneBoard(BoardVO boardVO, MultipartFile file) {
 		
@@ -153,6 +161,7 @@ public class BoardServiceImpl implements BoardService {
 		return updatedCount > 0;
 	}
 
+	@Transactional
 	@Override
 	public boolean deleteOneBoard(int id) {
 		// 기존의 게시글 내용을 확인.
@@ -174,7 +183,8 @@ public class BoardServiceImpl implements BoardService {
 		int deletedCount = this.boardDao.deleteOneBoard(id);
 		return deletedCount > 0;
 	}
-
+	
+	@Transactional
 	@Override
 	public boolean createMassiveBoard(MultipartFile excelFile) {
 		
@@ -241,6 +251,7 @@ public class BoardServiceImpl implements BoardService {
 		return insertedCount > 0 && insertedCount == rowSize - 1;
 	}
 
+	@Transactional
 	@Override
 	public boolean createMassiveBoard2(MultipartFile excelFile) {
 		
