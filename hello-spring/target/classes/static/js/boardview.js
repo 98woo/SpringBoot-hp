@@ -1,12 +1,23 @@
+// 문서가 준비되면 매개변수로 넣은 콜백 함수를 실행한다.
 $().ready(function() {
+	// delete-board 클래스에 포함되는 앨리먼트를 클릭하면 기능응 수행한다.
 	$(".delete-board").on("click", function() {
+		// 변수 chooseValue를 선언하고 confirm 매서드의 결과로 초기화한다.
+		// 확인을 눌렀는지, 누르지 않았는지를 boolean 형태로 저장한다.
 		var chooseValue = confirm(
 			"이 게시글을 정말 삭제하시겠습니까?\n삭제작업은 복구할 수 없습니다."
 		);
 
+		// 변수 id를 this(이벤트가 발생한 앨리먼트: delete-board 클래스가 할당한 a태그) 상위의
+		// 가장 가까운 grid가 할당된 클래스의 id 값으로 할당된 데이터로 초기화한다.
+		// var id 를 grid 클래스의 boardVO.id로 할당한다.
+		// GetMapping 을 위한 변수 초기화
 		var id = $(this).closest(".grid").data("id");
 
+		// 만약 chooseValue 가 참이라면. (확인을 눌렀다면)
 		if (chooseValue) {
+			// 매핑주소를 실행한다.(GetMapping 주소)
+			// boardController 의 doDeleteBoard 메서드 실행.
 			location.href = "/board/delete/" + id;
 		}
 	});
@@ -17,11 +28,17 @@ $().ready(function() {
 
 	// reply-items 에 댓글 채우기
 
-	var modifyReply = function(event) { 
+	// 변수 modifyReply를 function 메서드의 결과로 초기화한다. 파라미터로 이벤트 객체를 전달한다.
+	var modifyReply = function(event) {
+		// 콘솔에 2개의 파라미터 출력
 		console.log("수정을 클릭함", event);
+		// target 변수를 이벤트 객체의 currentTarget으로 초기화한다.
 		var target = event.currentTarget;
+		// reply 변수를 target 변수 상위의 reply 클래스로 초기화한다.
 		var reply = $(target).closest(".reply");
+		// replyId 변수를 reply 변수의 reply-id가 할당된 id 값으로 초기화한다.
 		var replyId = reply.data("reply-id");
+		// 콘솔에 replyId와 replyId 출력
 		console.log("replyId", replyId); 
 	};
 	var deleteReply = function(event) {
