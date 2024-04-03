@@ -1,0 +1,164 @@
+$().ready(function() {
+	$(".delete-board").on("click", function() {
+		var chooseValue = confirm(
+			"이 게시글을 정말 삭제하시겠습니까?\n삭제작업은 복구할 수 없습니다."
+		);
+
+		var id = $(this).closest(".grid").data("id");
+
+		if (chooseValue) {
+			location.href = "/board/delete/" + id;
+		}
+	});
+
+
+	// 댓글 javascript, jQuery 짬봉 
+	// jQuery 요청해서 동적으로 접근해야 한다.
+
+	// reply-items 에 댓글 채우기
+
+	var modifyReply = function(event) { };
+	var deleteReply = function(event) { };
+	var reReply = function(evnet) { };
+	var recommendReply = function(event) { };
+
+	// /ajax/board/reply/{boardId} 게시글 페이지에 노출되는 게시글의 번호를 파라미터로 가져온다.
+	var loadReplies = function(boardId) {
+		$(".reply-items").html("");
+
+		// 게시글의 아이디를 가져와서 조회한다. 
+		$.get("/ajax/board/reply/" + boardId, function(response) {
+			// count : 댓글의 수 replies : 댓글의 목록
+			// 응답에 대한 정보를 가져온다. 
+			// var count = response.data.count;
+			// List 는 JSON 으로 오면 배열로 바뀐다.
+			var replies = response.replies;
+
+			for (var i in replies) {
+				var reply = replies[i];
+
+				// 만들기 : <div class="reply" data-reply-id="댓글번호" style="padding-left: (level -1) + 40 px">
+				var replyDom = $("<div></div>");
+
+				// 클래스 지정
+				replyDom.addClass("reply");
+				// 데이터 할당
+				replyDom.data("reply-id", reply.replyId);
+				// css 지정
+				replyDom.css({
+					"padding-left": (reply.level - 1) * 40 + "px", // ? : reply 에 있는 Level 이다. connect by prior 가 1 부터 시작하기 때문에 -1 
+				});
+
+				var authorDom = $("<div></div>");
+				authorDom.addClass("author");
+				authorDom.text(reply.memberVO.name + " (" + reply.email + ")");
+				replyDom.append(authorDom);
+
+				var recommendCountDom = $("<div></div>");
+				recommendCountDom.addClass("recommend-count");
+				recommendCountDom.text("추천수: " + reply.recommendCnt);
+				replyDom.append(recommendCountDom);
+
+				var datetimeDom = $("<div></div>");
+				datetimeDom.addClass("datetime");
+
+				// <span class="crtdt"등록 : 등록날짜</span>
+				var crtDtDom = $("<span></span>");
+				crtDtDom.addClass("crtdt");
+				crtDtDom.text("등록: " + reply.crtDt);
+				datetimeDom.append(crtDtDom);
+
+				// 수정이 되었을 때만 보여준다. 수정날짜와 등록 날짜가 다를 때만 수정을 보여준다.
+				if (reply.crtDt !== reply.mdfyDt) {
+					// <span class="mdfdt"(수정 : 수정날짜)</span>
+					var mdfDtDom = $("<span></span>");
+					mdfDtDom.addClass("mdfdt");
+					mdfDtDom.text("(수정: " + reply.mdfyDt + ")");
+					datetimeDom.append(mdfDtDom);
+				}
+
+				replyDom.append(datetimeDom);
+				
+				// <pre class="content">댓글 내용</pre>
+				var contentDom = $("<pre></pre>");
+				contentDom.addClass("content");
+				contentDom.text(reply.content);
+				replyDom.append(contentDom);
+				
+				// membermenu 에 있는 email 정보를 span 으로 묶어 값을 가져온다. (id)
+				var loginEmail = $("login-email").text();
+				// div
+				var  controlDom = $("<div></div>");
+				
+				if (reply.email === loginEmail) {
+					var modifyReplyDom = $("<span></span>");
+					modifyReplyDom.addClass("modify-reply");
+					modifyReplyDom.text("수정");
+					controlDom.append(modifyReplyDom);
+					
+					var deleteReplyDom = $("<span></span>");
+					modifyReplyDom.addClass("delete-reply");
+					modifyReplyDom.text("삭제");
+					controlDom.append(deleteReplyDom);
+					
+					var reReplyDom = $("<span></span>");
+					modifyReplyDom.addClass("re-reply");
+					modifyReplyDom.text("답변하기");
+					controlDom.append(reReplyDom);
+					
+					
+				} else {
+					var recommedReplyDom = $("<span></span>");
+					modifyReplyDom.addClass("recommend-reply");
+					modifyReplyDom.text("추천하기");
+					controlDom.append(recommedReplyDom);
+					
+					var reReplyReplyDom = $("<span></span>");
+					reReplyReplyDom.addClass("re-reply");
+					recommedReplyDom.text("답변하기");
+					controlDom.append(recommedReplyDom);
+				}
+				
+				replyDom.append(controlDom);
+				
+				$(".reply-items").append(replyDom);
+				
+				// reply 를 가지고 만들 구조 (javascript 내부에 html 작성 : jsx) 
+				/*
+				<div class="reply" data-reply-id="댓글번호" style="padding-left: (level -1) + 40 px">
+					<div class="author">사용자명 (사용자이메일)</div>
+					<div class="recommend-count">추천수 : 실제 추천수</div>
+					<div class="datetime">
+						<span class="crtdt">등록 : 등록날짜</span>
+						<span class="mdfdt">(수정 : 수정날짜)</span>
+					</div>
+					<pre class="content">댓글 내용</pre>
+					
+					// 내가 쓴 댓글만 보여야 한다.
+					// 현재 로그인 정보를 불러와야 한다. (jsp 에서는 serssionScope를 사용할 수 없어서 다른 방식으로 가져와야 한다.)
+					// membermenu 에 있는 sessionScope를 가져온다 <span>으로 가져옴.
+					<div> 
+						<span class="modify-reply">수정</span>
+						<span class="delete-reply">삭제</span>
+						<span class="re-reply">답변하기</span>
+					</div>
+					
+					<span class="recommend-reply">추천하기</span>
+					<span class="re-reply">답변하기</span>
+				</div>
+				*/
+
+			}
+		});
+	};
+
+	// 현재 게시글의 댓글을 불러오는 코드
+	var boardId = $(".grid").data("id");
+	loadReplies(boardId);
+
+	$("#btn-save-reply").on("click", function() { });
+	$("#btn-cancel-reply").on("click", function() { });
+
+
+});
+

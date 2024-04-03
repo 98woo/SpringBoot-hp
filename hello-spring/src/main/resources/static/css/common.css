@@ -96,6 +96,37 @@ ul.horizontal-list li {
 
 input[type="file"] {
         padding: 0;
+}
+
+
+
+/************ 댓글 스타일 시작*******************/
+      div.grid > div.replies {
+      	grid-column: 1 / 3;
+      	display: grid;
+      }
+      div.replies > .write-reply {
+      	margin-top: 10px;
+      	grid-template-columns: 1fr 80px;
+      	grid-template-rows: 1fr 40px;
+      	row-gap: 10px;
+      	column-gap: 10px;
+      	align-items: center;
+      	display: grid;
+      }
+      div.replies > .write-reply > textarea {
+      	height: 150px;
+      	grid-column: 1 / 3;
+      	display: grid;
+      }
+      div.replies > .reply-items {
+      	grid-template-columns: 1fr;
+      	grid-template-rows: 1fr;
+      	row-gap: 10px;
+      	display: grid;
+      }
+      pre.content {
+      	margin: 0px;
       }
 
 

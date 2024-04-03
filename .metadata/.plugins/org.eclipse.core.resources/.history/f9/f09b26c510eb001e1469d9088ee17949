@@ -1,7 +1,0 @@
-package com.example.demo.utils;
-
-public class Validator {
-
-	private Map<String>, List<Function<String, Boolean>>> validationList;
-	
-}

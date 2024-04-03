@@ -1,0 +1,62 @@
+package com.hello.forum.exceptions;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+import com.hello.forum.utils.RequestUtil;
+
+import jakarta.servlet.http.HttpServletRequest;
+
+/**
+ * Base Package (com.hello.forum) 아래에서 발생하는
+ * 처리되지 않은 모든 예외들을 ControllerAdvice 가 처리해준다.
+ */
+@ControllerAdvice
+public class GlobalExceptionHandler {
+
+	/**
+	 * PageNotFoundException 이 발생했을 때, 동작하는 메서드.
+	 * 
+	 * @param pnfe ControllerAdvice 까지 처리되지 않은 PageNotFoundException 객체
+	 * @return 에러 페이지
+	 */
+	@ExceptionHandler(PageNotFoundException.class)
+	public Object viewPageNotFoundPage(PageNotFoundException pnfe, Model model) {
+		
+		HttpServletRequest request = RequestUtil.getRequest();
+		String uri = request.getRequestURI();
+		
+		if (uri.startsWith("/ajax/")) {									
+			return new ResponseEntity<String>("json", HttpStatus.OK);	// String 을 반환 시키면 페이지가 되어버린다. 그래서 ResponseEntity 로 전달한다. (순서한 데이터만 전달)
+		}
+		
+		model.addAttribute("message", pnfe.getMessage());
+		
+		return "error/404";
+	}
+	
+	@ExceptionHandler({FileNotExistsException.class, MakeXlsxFileException.class, AlreadyUseException.class, UserIdentifyNotMatchException.class})
+	public Object viewErrorPage(RuntimeException re, Model model) {
+		
+		HttpServletRequest request = RequestUtil.getRequest();
+		String uri = request.getRequestURI();
+		
+		if (uri.startsWith("/ajax/")) {									
+			return new ResponseEntity<String>("json", HttpStatus.OK);	// String 을 반환 시키면 페이지가 되어버린다. 그래서 ResponseEntity 로 전달한다. (순서한 데이터만 전달)
+		}
+		
+		// 파라미터를 꺼내기 위해서 instanceof
+		if (re instanceof AlreadyUseException) {
+			AlreadyUseException aue = (AlreadyUseException) re;
+			model.addAttribute("email", aue.getEmail());
+		}
+		
+		model.addAttribute("message", re.getMessage());
+		return "error/500";
+	}
+	
+	
+}

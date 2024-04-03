@@ -6,7 +6,7 @@ $().ready(function () {
 		$(".error").remove();
 		$("div.grid").removeAttr("style");
 		
-		$.post("/member/login", {
+		$.post("/ajax/member/login", {
 			email: $("#email").val(),
 			password: $("#password").val(),
 			nextUrl: $("#nextUrl").val(),

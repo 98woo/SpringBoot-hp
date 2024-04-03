@@ -1,0 +1,10 @@
+package com.hello.forum.aop;
+
+import org.aspectj.lang.annotation.Aspect;	// spring boot starter aop Dependency 추가 
+import org.springframework.stereotype.Component;
+
+@Aspect	// AOP 모듈
+@Component	// Spring Bean 생성해주는 Annotation
+public class TimingAspect {
+
+}

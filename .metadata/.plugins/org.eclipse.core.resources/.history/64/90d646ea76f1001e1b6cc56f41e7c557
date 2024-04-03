@@ -1,0 +1,30 @@
+$().ready(function () {
+	$(".delete-board").on("click", function () {
+		var chooseValue = confirm(
+			"이 게시글을 정말 삭제하시겠습니까?\n삭제작업은 복구할 수 없습니다."
+		);
+		
+		var id = $(this).closest(".grid").data("id");
+		
+		if (chooseValue) {
+			location.href = "/board/delete/" + id;
+		}
+	});
+	
+	
+	// 댓글 
+	var modifyReply = function (event) {
+		var reply = $(event.currentTarget).closest(".reply");
+		var replyId = reply.data("reply-id");
+		
+		var content = reply.find(".content").text();
+		$("#txt-reply").val(content);
+		$("#txt-reply").focus();
+		
+		$("#txt-reply").data("mode", "modify");
+		$("#txt-reply").data("target", replyId);
+	}
+	
+	
+});
+

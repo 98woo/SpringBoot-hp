@@ -33,7 +33,9 @@ app:
         check-url-pattern: /**
         ignore-url-patterns: 
             /member/login,
+            /ajax/member/login,
             /member/regist/**,
+            /ajax/member/regist/**,
             /board/list,
             /js/**,
             /css/**,
